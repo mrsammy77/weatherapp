@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="search_box">
+            <input type="text" id="search_input" placeholder="City Name">
+            <img class="btn search" src="asset/images/search.png   " alt="" srcset="">
+            <img class="btn location" src="asset/images/location.png" alt="" srcset="">
+
+        </div>
+        <div class="box">
+            <div class="box_data">
+                <div class="content">
+                    <img class="weather" width="150px" height="130px" src="asset/images/cloud.png" alt="">
+                    <div class="degree_city">
+                        <h1>0<sup>0</sup>c</h1>
+                        <h2>City Name</h2>
+                        <p>weather</p>
+                    </div>
+                </div>
+
+                <div class="bottom_data">
+                    <div class="left">
+                        <img src="./asset/imgs/humidity.png" alt="">
+                        <div class="data">
+                            <h2 class="humidity">0 %</h2>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="./asset/imgs/winter.png" alt="">
+                        <div class="data">
+                            <h2 class="wind">0 km/h</h2>
+                            <p>wind speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_error">
+                <!-- <img src="./asset/imgs/not-found.png" alt=""> -->
+            </div>
+            <div class="loader">
+                
+            </div>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

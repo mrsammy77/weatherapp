@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 2px 4px 5px 3px #3e4a47;
+    padding: 10px;
+
+    background: linear-gradient(125deg, #63000091, #000000);
+    border-radius: 20px;
+}
+
+.search_box {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 49px;
+    background-color: #eeee;
+    padding: 12px;
+    border-radius: 32px;
+    color: red;
+    font-size: 1.3rem;
+    margin-right: 10px;
+
+}
+
+.fa-magnifying-glass {
+    margin-right: 8px;
+}
+
+input {
+    color: #487693;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 14px;
+    width: 60%;
+    padding: 10px 15px;
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    background-color: #eeee;
+}
+
+
+.content {
+    max-width: 180px;
+    margin: 0 auto;
+    color: white;
+}
+
+img {
+    margin-top: 10px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.degree_city {
+    line-height: 70px;
+}
+
+.degree_city h1 {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.degree_city h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.degree_city p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.box_error {
+    display: none;
+}
+
+.bottom_data {
+    margin-top: 18px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+
+.left,
+.right {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.left h2,
+.right h2 {
+    font-size: 1.5rem;
+}
+
+.left p,
+.right p {
+    font-size: 0.9rem;
+}
+
+.left img,
+.right img {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.error {
+    width: 80%;
+    margin-top: 15px;
+    object-fit: contain;
+}
+
+
+/* ///////////////////
+/// see this /////////
+/////////////////////// */
+body {
+    height: 100vh;
+    /* background-color: #3e4a47; */
+    background-image: url(asset/images/cubed-squares-black-3d-bqeujlzpj3p2e505.jpg);
+    overflow-y: hidden;background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.bg {
+    object-fit: cover;
+    background-size: cover !important;
+    /* height: 100%; */
+    background-repeat: no-repeat !important;
+}
+
+.loader img {
+    background-color: transparent;
+}
+
+.rain {
+    background: url('./asset/gif/rain.gif');
+}
+
+.thunderstorms {
+    background: url('./asset/gif/thunderstorms.gif');
+}
+
+.drizzle {
+    background: url('./asset/gif/drizzle.gif');
+}
+
+.snow {
+    background: url('./asset/gif/snow.gif');
+}
+
+.cloudy {
+    background: url('./asset/gif/cloudy.gif');
+}
+
+.clouds {
+    background: url('./asset/gif/clouds.gif');
+}
+
+.sun {
+    background: url('./asset/gif/sun.gif');
+
+}
+
+.Error {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .left h2,
+    .right h2 {
+        font-size: 1rem;
+    }
+
+    .left p,
+    .right p {
+        font-size: 0.8rem;
+    }
+
+
+    img {
+        margin-top: 5px;
+        width: 90%;
+    }
+
+    input {
+        font-size: 1rem;
+        margin-right: 8px;
+        width: 60%;
+        padding: 9px 15px;
+    }
+
+    .btn {
+        width: 42px;
+        padding: 9px;
+        margin-right: 7px;
+    }
+
+
+
+    img {
+        margin-top: 5px;
+        width: 90%;
+    }
+
+    .degree_city {
+        line-height: 54px;
+    }
+
+    .degree_city h1 {
+        font-size: 4rem;
+    }
+
+    .degree_city h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .degree_city p {
+        font-size: 1.5rem;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+}
